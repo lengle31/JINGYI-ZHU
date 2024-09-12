@@ -1,0 +1,20 @@
+---
+project:
+  type: website 
+  output-dir: docs
+file.create(".nojekyll")
+title: "Welcome to JINGYI's website"
+navbar:
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: about.qmd
+        text: "About"
+format:
+  html:
+    theme: darkly
+use_git()
+use_github()
+---
+
+Hello, my name is JINGYI ZHU. I am a student of UofT with Double Majors (STA&ACT). This is My website. To contact me, please email lengle.zhu\@mail.utoronto.ca.
